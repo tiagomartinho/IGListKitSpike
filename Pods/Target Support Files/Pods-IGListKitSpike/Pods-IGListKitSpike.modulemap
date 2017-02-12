@@ -1,0 +1,6 @@
+framework module Pods_IGListKitSpike {
+  umbrella header "Pods-IGListKitSpike-umbrella.h"
+
+  export *
+  module * { export * }
+}
