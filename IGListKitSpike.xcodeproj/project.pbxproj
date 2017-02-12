@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24484F521E50FBF400CE6125 /* Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24484F511E50FBF400CE6125 /* Object.swift */; };
+		24484F541E50FD9A00CE6125 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24484F531E50FD9A00CE6125 /* Cell.swift */; };
 		247346961E508ECF00D3B8D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247346951E508ECF00D3B8D0 /* AppDelegate.swift */; };
-		247346981E508ECF00D3B8D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247346971E508ECF00D3B8D0 /* ViewController.swift */; };
+		247346981E508ECF00D3B8D0 /* SectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247346971E508ECF00D3B8D0 /* SectionController.swift */; };
 		2473469B1E508ECF00D3B8D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 247346991E508ECF00D3B8D0 /* Main.storyboard */; };
 		2473469D1E508ECF00D3B8D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2473469C1E508ECF00D3B8D0 /* Assets.xcassets */; };
 		247346A01E508ECF00D3B8D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2473469E1E508ECF00D3B8D0 /* LaunchScreen.storyboard */; };
 		247346AB1E508ECF00D3B8D0 /* IGListKitSpikeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247346AA1E508ECF00D3B8D0 /* IGListKitSpikeTests.swift */; };
 		247346B61E508ECF00D3B8D0 /* IGListKitSpikeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247346B51E508ECF00D3B8D0 /* IGListKitSpikeUITests.swift */; };
+		247346C91E50936F00D3B8D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247346C81E50936F00D3B8D0 /* ViewController.swift */; };
 		51B7FAD31DC6D8094E2301F8 /* Pods_IGListKitSpikeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232E03850A0BC6B61A90C5AF /* Pods_IGListKitSpikeUITests.framework */; };
 		62D759E30195C53F2A00D8CE /* Pods_IGListKitSpike.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D8B7BAEF3B7A209C334A058 /* Pods_IGListKitSpike.framework */; };
 		8865B74A547B5B8E0CB5594A /* Pods_IGListKitSpikeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29C3253D6CBDCC6A90110B62 /* Pods_IGListKitSpikeTests.framework */; };
@@ -39,9 +42,11 @@
 /* Begin PBXFileReference section */
 		06D7AF27E3B3D5467C50BA00 /* Pods-IGListKitSpikeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGListKitSpikeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IGListKitSpikeUITests/Pods-IGListKitSpikeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		232E03850A0BC6B61A90C5AF /* Pods_IGListKitSpikeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IGListKitSpikeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24484F511E50FBF400CE6125 /* Object.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Object.swift; sourceTree = "<group>"; };
+		24484F531E50FD9A00CE6125 /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 		247346921E508ECF00D3B8D0 /* IGListKitSpike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IGListKitSpike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		247346951E508ECF00D3B8D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		247346971E508ECF00D3B8D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		247346971E508ECF00D3B8D0 /* SectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionController.swift; sourceTree = "<group>"; };
 		2473469A1E508ECF00D3B8D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2473469C1E508ECF00D3B8D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2473469F1E508ECF00D3B8D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -52,6 +57,7 @@
 		247346B11E508ECF00D3B8D0 /* IGListKitSpikeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IGListKitSpikeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		247346B51E508ECF00D3B8D0 /* IGListKitSpikeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGListKitSpikeUITests.swift; sourceTree = "<group>"; };
 		247346B71E508ECF00D3B8D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		247346C81E50936F00D3B8D0 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		248BC9E0CE41CD353EFC243C /* Pods-IGListKitSpikeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGListKitSpikeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IGListKitSpikeUITests/Pods-IGListKitSpikeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		29C3253D6CBDCC6A90110B62 /* Pods_IGListKitSpikeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IGListKitSpikeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D8B7BAEF3B7A209C334A058 /* Pods_IGListKitSpike.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IGListKitSpike.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,12 +120,12 @@
 		247346941E508ECF00D3B8D0 /* IGListKitSpike */ = {
 			isa = PBXGroup;
 			children = (
-				247346951E508ECF00D3B8D0 /* AppDelegate.swift */,
-				247346971E508ECF00D3B8D0 /* ViewController.swift */,
+				24484F511E50FBF400CE6125 /* Object.swift */,
+				24484F531E50FD9A00CE6125 /* Cell.swift */,
+				247346971E508ECF00D3B8D0 /* SectionController.swift */,
+				247346C81E50936F00D3B8D0 /* ViewController.swift */,
 				247346991E508ECF00D3B8D0 /* Main.storyboard */,
-				2473469C1E508ECF00D3B8D0 /* Assets.xcassets */,
-				2473469E1E508ECF00D3B8D0 /* LaunchScreen.storyboard */,
-				247346A11E508ECF00D3B8D0 /* Info.plist */,
+				247346C31E50905C00D3B8D0 /* Supporting Files */,
 			);
 			path = IGListKitSpike;
 			sourceTree = "<group>";
@@ -140,6 +146,17 @@
 				247346B71E508ECF00D3B8D0 /* Info.plist */,
 			);
 			path = IGListKitSpikeUITests;
+			sourceTree = "<group>";
+		};
+		247346C31E50905C00D3B8D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				247346951E508ECF00D3B8D0 /* AppDelegate.swift */,
+				2473469C1E508ECF00D3B8D0 /* Assets.xcassets */,
+				2473469E1E508ECF00D3B8D0 /* LaunchScreen.storyboard */,
+				247346A11E508ECF00D3B8D0 /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		83F5299C7B83AF7A8C3C5E51 /* Pods */ = {
@@ -449,7 +466,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				247346981E508ECF00D3B8D0 /* ViewController.swift in Sources */,
+				24484F521E50FBF400CE6125 /* Object.swift in Sources */,
+				247346981E508ECF00D3B8D0 /* SectionController.swift in Sources */,
+				24484F541E50FD9A00CE6125 /* Cell.swift in Sources */,
+				247346C91E50936F00D3B8D0 /* ViewController.swift in Sources */,
 				247346961E508ECF00D3B8D0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -707,6 +727,7 @@
 				247346BC1E508ECF00D3B8D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		247346BD1E508ECF00D3B8D0 /* Build configuration list for PBXNativeTarget "IGListKitSpikeTests" */ = {
 			isa = XCConfigurationList;
@@ -715,6 +736,7 @@
 				247346BF1E508ECF00D3B8D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		247346C01E508ECF00D3B8D0 /* Build configuration list for PBXNativeTarget "IGListKitSpikeUITests" */ = {
 			isa = XCConfigurationList;
@@ -723,6 +745,7 @@
 				247346C21E508ECF00D3B8D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
